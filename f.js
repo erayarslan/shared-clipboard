@@ -17,8 +17,8 @@ function checkLogin(email,password) {
         async:false,
         dataType:"json",
         data: {
-          	'email':email,
-          	'password':password
+          	'email'    :email,
+          	'password' :password
         },
         success:function (data) {
         	result = data;
@@ -36,7 +36,7 @@ function getClipboard() {
         async:false,
         dataType:"json",
         data: {
-          	'email'		:localStorage.email,
+          	'email'		  :localStorage.email,
           	'password'	:localStorage.password
         },
         success:function (data) {
