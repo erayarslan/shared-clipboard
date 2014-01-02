@@ -20,6 +20,11 @@ Global Shared Menu with REST APIs for Chrome
 | 2   | 1      	| dummy     |
 | 3   | 3      	| dummy     |
 
+## usage
+	
+	email 		: 	'user'
+	password	:	'user'
+
 ## dependencies
 
 - [bootstrap] for 'options' page css.
