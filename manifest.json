@@ -1,0 +1,17 @@
+{
+  "name": "Shared Clipboard",
+  "description": "Global Shared Menu with REST APIs",
+  "version": "1.0",
+  "permissions": ["contextMenus","tabs", "http://*/*", "https://*/*"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["js/jquery-2.0.3.min.js","f.js","background.js"]
+  },
+  "content_scripts": [
+        {
+        	"matches": ["http://*/*", "https://*/*"],
+            "js": ["main.js"]
+        }
+  ],
+  "manifest_version": 2
+}
